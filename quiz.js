@@ -16,12 +16,28 @@ const quizData = [
         correct: "b",
     },
     {
+        question: "What year was CSS launched?",
+        a: "1996",
+        b: "1995",
+        c: "1994",
+        d: "none of the above",
+        correct: "a",
+    },
+    {
         question: "What does HTML stand for?",
         a: "Hypertext Markup Language",
         b: "Hypertext Markdown Language",
         c: "Hyperloop Machine Language",
         d: "Helicopters Terminals Motorboats Lamborginis",
         correct: "a",
+    },
+    {
+        question: "What year was HTML launched?",
+        a: "1996",
+        b: "1993",
+        c: "1995",
+        d: "none of the above",
+        correct: "b",
     },
     {
         question: "What year was JavaScript launched?",
@@ -31,8 +47,6 @@ const quizData = [
         d: "none of the above",
         correct: "b",
     },
-
-
 ];
 
 const quiz= document.getElementById('quiz')
